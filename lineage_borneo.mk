@@ -26,3 +26,21 @@ BUILD_FINGERPRINT := "motorola/borneo_retail/borneo:11/RZBS31.Q2-143-27-25/418ef
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=borneo_retail \
     PRIVATE_BUILD_DESC="borneo_retail-user 11 RZBS31.Q2-143-27-25 418ef release-keys"
+
+# RisingOS Flags
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RISING_CHIPSET="Snapdragon 662" \
+    RISING_MAINTAINER="Fazwalrus"
+RISING_PACKAGE_TYPE := GAPPS
+WITH_GMS := true
+TARGET_CORE_GMS := true
+PRODUCT_NO_CAMERA := false
+PRODUCT_PACKAGES += \
+   CalculatorGooglePrebuilt \
+   CalendarGooglePrebuilt \
+   Chrome \
+   LatinIMEGooglePrebuilt \
+   Photos \
+   PrebuiltDeskClockGoogle \
+   Velvet
+
