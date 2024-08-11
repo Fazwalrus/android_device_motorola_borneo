@@ -34,13 +34,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 RISING_PACKAGE_TYPE := GAPPS
 WITH_GMS := true
 TARGET_CORE_GMS := true
+TARGET_CORE_GMS_EXTRAS := true
 PRODUCT_NO_CAMERA := false
-PRODUCT_PACKAGES += \
-   CalculatorGooglePrebuilt \
-   CalendarGooglePrebuilt \
-   Chrome \
-   LatinIMEGooglePrebuilt \
-   Photos \
-   PrebuiltDeskClockGoogle \
-   Velvet
-
